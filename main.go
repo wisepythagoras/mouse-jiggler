@@ -52,7 +52,7 @@ func main() {
 
 	go mousePosLoop(queue)
 
-	var lastMoveAt time.Time
+	lastMoveAt := time.Now()
 	jigglingOn = false
 
 	for {
